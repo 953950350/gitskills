@@ -1,0 +1,42 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        height: 635px;
+        width: 600px;
+
+        margin: 50px auto;
+    }
+    header {
+        float: left;
+        height: 635px;
+        width: 70px;
+        color: #fff;
+        padding: 20px 0 0 10px;
+        background-color: #3F8EF9;
+    }
+    div {
+        float: left;
+        height: 645px;
+        width: 490px;
+        background-color: #F0F3EF;
+        padding:10px 0 0 10px
+    }
+    article {
+        padding-bottom: 20px;
+    }
+    h3 {
+        padding-bottom: 20px;
+    }
+    ul {
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        padding-right: 40px;
+        list-style: none;
+    }
+    span {
+        padding-right: 10px;
+    }
