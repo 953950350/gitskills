@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>简历1</title>
-    <link href="style1.css" rel="stylesheet" type="text/css">
+    <link id="link" href="style1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <main>
@@ -90,5 +90,14 @@
             </section>
         </div>
     </main>
+    <script>
+        var but = document.getElementsByTagName("button");
+        for(var i=0;i<but.length;i++){
+            but[i].index = i+1;
+            but[i].onclick = function (){
+                document.getElementById("link").href = "style"+this.index+".css";
+            }
+        }
+    </script>
 </body>
 </html>
